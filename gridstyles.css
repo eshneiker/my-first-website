@@ -1,0 +1,49 @@
+.grid-container-twoCol{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 200px; */
+    gap: 1px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    background-color:beige;
+    position: relative;
+  }
+
+  .grid-container-threeCol{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 200px; */
+    gap: 1px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    background-color:  #e6e6e6;
+    position: relative;
+  }
+
+
+  .grid-text {
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px 100px;
+    font-size: em;
+    color: #683315;
+    /* border: 1px solid black; */
+  }
+
+  .grid-image {
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    align-items: center;
+    padding: 20px 100px;
+    font-size: em;
+    color: #683315;
+  }
+
+  .inGridImage{
+    position: relative;
+    height: 120px;
+    width: auto;
+    left: 25%;
+  }

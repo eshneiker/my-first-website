@@ -1,0 +1,248 @@
+body{
+  background-color:beige;
+  padding: 0px;
+  margin: 0px;
+  color: #683315;
+  min-width: 90em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: itcFonts;
+  src: url(fonts/snap-itc-regular.TTF) format("truetype");
+}
+
+h2{
+  font-family: itcFonts ;
+  font-size: 1em;
+}
+
+h1{
+  font-family: itcFonts ;
+  font-size: 2em;
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+  margin-bottom: .5em;
+}
+
+li a:visited{
+  color: rgb(7, 91, 63);
+}
+
+.pageh1{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 90px;
+  background-color: beige;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.pageh1text{
+position: absolute;
+left: 110px;
+margin-top: 3px;
+z-index: 1;
+
+}
+
+/*
+li a::after{
+font-size: x-small;
+font-style: italic;
+color: grey;
+  content: "      visted";
+}
+*/
+
+
+#pageHeader{
+  position: relative;
+  float: left;
+  top: 0px;
+  width:100%;
+  height: 150px;
+  background:gray;
+  background-blend-mode:normal;
+
+}
+
+
+.pageFooter{
+  position: relative;
+  float: left;
+  width:100%;
+  height: 250px;
+  background:gray;
+  background-blend-mode:normal;
+
+}
+
+
+#siteLogo{
+  position: relative;
+  display: inline-block;
+  left: 10px;
+  top: 10px;
+  width: 94px;
+  height: auto;
+}
+
+#siteNameLogo{
+  position: relative;
+  display: inline-block;
+  left: 10px;
+  top: -10px;
+  width: 200px;
+  height: auto;
+}
+
+.menuBar{
+  position: relative;
+  display: inline-block;
+  color: #683315;
+  left: 400px;
+  top: -40px;
+  padding: 0px;
+  margin: 0px;
+  font:large;
+  font-size: larger;
+}
+
+.menuBtn{
+  position:relative;
+  display:inline-block;
+  font-size: 0.8em;
+  background-color: transparent;
+  border: 0px;
+  color: #683315;
+  padding: 0px;
+  margin: 0px;
+  left: 400px;
+  top: -40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menuBtn:hover{
+  color:crimson;
+}
+
+.selectedBtn{
+  font-weight:bold;
+  font-size: 0.9em;
+}
+
+.aTagDisabled{
+  pointer-events: none;
+  cursor: default;
+}
+
+p{
+  padding: 0px;
+  margin: 0px;
+margin-bottom: 20px;
+}
+
+.joinBtn{
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  bottom: 10px;
+  text-decoration: none;
+}
+
+
+/* footer buttons styling */
+.footerBar{
+  display: inline-block;
+  color: #683315;
+  left: 100px;
+  top: 40px;
+  padding: 0px;
+  margin: 0px;
+  font:large;
+  font-size: larger;
+}
+
+.footerBtn{
+  display:inline-block;
+  font-size: 0.8em;
+  background-color: transparent;
+  border: 0px;
+  color: #683315;
+  padding: 0px;
+  margin: 0px;
+  left: 100px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.footerBtn:hover{
+  color:crimson;
+}
+
+.alignToBottom{
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+ul{
+  list-style-type:disc;
+  min-height: 350px;
+}
+
+.noBullet{
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.astrik{
+  color: red;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  vertical-align: top;
+}
+
+input{
+  width: 350px;
+}
+
+form{
+min-height: 400px;
+  position: relative;
+  border: 1px solid #683315;
+  padding: 10px;
+}
+
+input[type=submit]{
+  position: absolute;
+  bottom: 10px;
+}
+
+.checkbox input{
+  display:inline-block;
+	vertical-align:middle;
+  text-align: left;
+  width: 30px;
+  margin-left: 75px;
+}
+
+.checkbox label{
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  vertical-align: middle;
+}
